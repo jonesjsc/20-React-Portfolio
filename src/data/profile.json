@@ -1,0 +1,221 @@
+{
+  "name": "Jason Jones",
+  "position": "Speciality Channel Manager",
+  "address": "Rock Hill, SC",
+  "phone": "803-620-3501",
+  "email": "jason.e.jones@gmail.com",
+  "SocialMedias": [
+    "https://github.com/jonesjsc",
+    "https://www.linkedin.com/in/backupbbq/"
+  ],
+  "experience": [
+    {
+      "companyName": "Dell Technologies",
+      "companyUrl": "https://www.delltechnologies.com/",
+      "companyLocation": "Charlotte, NC",
+      "roles": [
+        {
+          "title": "Data Protection Channel Manager",
+          "responsibilities": "Channel Partner Development, charged with Engagement, Enablement ad Demand Generation activities for partners in the Mid Atlantic and Southeast Regions.",
+          "startDate": "FEB 2018",
+          "endData": "PRESENT"
+        },
+        {
+          "title": "National Channel System Engineer",
+          "responsibilities": "Channel technical empowerment and community building thgouth customer facing and channel technical deal support.",
+          "startDate": "MAR 2016",
+          "endData": "FEB 2018"
+        }
+      ]
+    },
+    {
+      "companyName": "Datagravity",
+      "url": "https://en.wikipedia.org/wiki/DataGravity",
+      "companyLocation": "Charlotte, NC",
+      "roles": [
+        {
+          "title": "Solutions Architect",
+          "responsibilities": "Partner recruitment and training, evangelize security enabled solutions on C-Level sales calls.",
+          "startDate": "MAR 2015",
+          "endData": "FEB 2016"
+        }
+      ]
+    },
+    {
+      "companyName": "EMC",
+      "url": "https://en.wikipedia.org/wiki/Dell_EMC",
+      "companyLocation": "Charlotte, NC",
+      "roles": [
+        {
+          "title": "Advisory Technical Consuiltant",
+          "responsibilities": "Data Protection presales specialist executing partner enablement as able.",
+          "startDate": "MAY 2010",
+          "endData": "FEB 2015"
+        }
+      ]
+    },
+    {
+      "companyName": "Various Resellers",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "companyLocation": "Charlotte, NC",
+      "roles": [
+        {
+          "title": "Solutions Architect +",
+          "responsibilities": "Datacenter Solutions Design / Architecture / Deployment / Project Management - National Sales Overlay for NTAP - Professional Speaking.",
+          "startDate": "JAN 1993",
+          "endData": "MAY 2009"
+        }
+      ]
+    }
+  ],
+  "Skills": [
+    {
+      "Area": "Client",
+      "SkillSet": [
+        {
+          "Name": "JavaScript (ES5, ES6)"
+        },
+        {
+          "Name": "React"
+        },
+        {
+          "Name": "Handlebars"
+        },
+        {
+          "Name": "jQuery"
+        },
+        {
+          "Name": "Bootstrap"
+        },
+        {
+          "Name": "Bulma"
+        },
+        {
+          "Name": "HTML / CSS"
+        }
+      ]
+    },
+    {
+      "Area": "API Interaction",
+      "SkillSet": [
+        {
+          "Name": "APIs"
+        },
+        {
+          "Name": "JSON"
+        },
+        {
+          "Name": "AJAX"
+        }
+      ]
+    },
+    {
+      "Area": "Databases",
+      "SkillSet": [
+        {
+          "Name": "MongoDB"
+        },
+        {
+          "Name": "MySQL"
+        }
+      ]
+    },
+    {
+      "Area": "Dev Tools",
+      "SkillSet": [
+        {
+          "Name": "Heroku"
+        },
+        {
+          "Name": "Netlify"
+        },
+        {
+          "Name": "Git"
+        },
+        {
+          "Name": "GitHub"
+        }
+      ]
+    },
+    {
+      "Area": "Databases",
+      "SkillSet": [
+        {
+          "Name": "MySQL"
+        },
+        {
+          "Name": "MongoDB"
+        }
+      ]
+    },
+    {
+      "Area": "Server Side",
+      "SkillSet": [
+        {
+          "Name": "Sessions"
+        },
+        {
+          "Name": "Writing tests"
+        },
+        {
+          "Name": "Node.js"
+        },
+        {
+          "Name": "Express.js"
+        },
+        {
+          "Name": "Creating APIs"
+        },
+        {
+          "Name": "MVC"
+        },
+        {
+          "Name": "User Authentication"
+        },
+        {
+          "Name": "ORM (Sequalize)"
+        }
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "Name": "Project 1: Team Project API Basics",
+      "Description": "A simple team project designed to practice use of 3rd party APIs. Our team executed a project that rendered a stylized deployment of the NASA APOD API and also included a simple integration with Slack. When you check it out don't forget to scroll down!",
+      "ScreenShotURL": "./public/images/project1.png",
+      "ProjectLink": "https://jonesjsc.github.io/Project-1-API-Basics/",
+      "GithubLink": "https://github.com/jonesjsc/Project-1-API-Basics"
+    },
+    {
+      "Name": "Exercise 6: Third Party APIs",
+      "Description": "Individual exercise leveraging Bulma that dives deeper into 3rd party APIs (OpenWeather).",
+      "ScreenShotURL": "./public/images/weather-api.png",
+      "ProjectLink": "https://jonesjsc.github.io/06-Third-Party-APIs-Weather/",
+      "GithubLink": "https://github.com/jonesjsc/06-Third-Party-APIs-Weather"
+    },
+    {
+      "Name": "Exercise 14: Full Stack MVC app",
+      "Description": "An individual assignment that demonstrates the complete MVC stack leverging Node.js, Sequelize, Handlebars formatted with Bootstrap and deployed to Heroku",
+      "ScreenShotURL": "./public/images/techblog.png",
+      "ProjectLink": "https://techblog-hw14.herokuapp.com/",
+      "GithubLink": "https://github.com/jonesjsc/14-MVC-Tech-Blog"
+    },
+    {
+      "Name": "Project 2: Team Project Full Stack MVC app",
+      "Description": "Team Project exercising the complete MVC stack leverging Node.js, Sequelize, Handlebars and deployed to Heroku. The notable capability here is basic integration with email via sendgrid, and deployment to a custom domain.",
+      "ScreenShotURL": "./public/images/project2.png",
+      "ProjectLink": "https://www.viktoriiasvaxxpassport.com/",
+      "GithubLink": "https://github.com/Team-6-Project-2/vvp"
+    }
+  ],
+  "Education": [
+    {
+      "SchoolName": "University of North Carolina Charlotte",
+      "Degree": "BS Engineering"
+    },
+    {
+      "SchoolName": "University of North Carolina Charlotte",
+      "Degree": "Coding Bootcamp"
+    }
+  ]
+}
