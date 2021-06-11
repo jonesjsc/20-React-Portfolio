@@ -1,0 +1,110 @@
+[
+  {
+    "area": "Client",
+    "skillSet": [
+      {
+        "name": "JavaScript (ES5, ES6)"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Handlebars"
+      },
+      {
+        "name": "jQuery"
+      },
+      {
+        "name": "Bootstrap"
+      },
+      {
+        "name": "Bulma"
+      },
+      {
+        "name": "HTML / CSS"
+      }
+    ]
+  },
+  {
+    "area": "API Interaction",
+    "skillSet": [
+      {
+        "name": "APIs"
+      },
+      {
+        "name": "JSON"
+      },
+      {
+        "name": "AJAX"
+      }
+    ]
+  },
+  {
+    "area": "Databases",
+    "skillSet": [
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "MySQL"
+      }
+    ]
+  },
+  {
+    "area": "Dev Tools",
+    "skillSet": [
+      {
+        "name": "Heroku"
+      },
+      {
+        "name": "Netlify"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "GitHub"
+      }
+    ]
+  },
+  {
+    "area": "Databases",
+    "skillSet": [
+      {
+        "name": "MySQL"
+      },
+      {
+        "name": "MongoDB"
+      }
+    ]
+  },
+  {
+    "area": "Server Side",
+    "skillSet": [
+      {
+        "name": "Sessions"
+      },
+      {
+        "name": "Writing tests"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "Creating APIs"
+      },
+      {
+        "name": "MVC"
+      },
+      {
+        "name": "User Authentication"
+      },
+      {
+        "name": "ORM (Sequalize)"
+      }
+    ]
+  }
+]
