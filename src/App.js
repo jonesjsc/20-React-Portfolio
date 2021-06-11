@@ -26,11 +26,12 @@ function App() {
         <SocialMediaCard tag={socialMedia.tag} url={socialMedia.url} />
       ))}
 
-      {experiences.map((experiences) => (
+      {experiences.map((experience) => (
         <ExperiencesCard
-          companyName={experiences.companyName}
-          companyUrl={experiences.companyUrl}
-          companyLocation={experiences.companyLocation}
+          companyName={experience.companyName}
+          companyUrl={experience.companyUrl}
+          companyLocation={experience.companyLocation}
+          roles={experience.roles}
         />
       ))}
     </div>
