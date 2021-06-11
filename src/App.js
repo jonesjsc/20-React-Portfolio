@@ -15,13 +15,6 @@ import education from "./data/education.json";
 import EducationCard from "./components/EducationCard";
 
 function App() {
-  React.state = {
-    profile,
-    socialMedias,
-    experiences,
-    skills,
-  };
-
   return (
     <div>
       <Navbar />
@@ -32,7 +25,7 @@ function App() {
       {profile.email}
       {socialMedias.map((socialMedia, index) => (
         <SocialMediaCard
-          key={index + socialMedia.tag}
+          key={index}
           tag={socialMedia.tag}
           url={socialMedia.url}
         />
@@ -40,7 +33,7 @@ function App() {
 
       {experiences.map((experience, index) => (
         <ExperiencesCard
-          key={index + experience.companyName}
+          key={index}
           companyName={experience.companyName}
           companyUrl={experience.companyUrl}
           companyLocation={experience.companyLocation}
@@ -49,11 +42,7 @@ function App() {
       ))}
 
       {skills.map((skill, index) => (
-        <SkillsCard
-          key={index + skill.area}
-          area={skill.area}
-          skillSet={skill.skillSet}
-        />
+        <SkillsCard key={index} area={skill.area} skillSet={skill.skillSet} />
       ))}
 
       {projects.map((project, index) => (
