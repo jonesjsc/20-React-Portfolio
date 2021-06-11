@@ -4,7 +4,7 @@
   "address": "Rock Hill, SC",
   "phone": "803-620-3501",
   "email": "jason.e.jones@gmail.com",
-  "SocialMedias": [
+  "socialMedias": [
     "https://github.com/jonesjsc",
     "https://www.linkedin.com/in/backupbbq/"
   ],
@@ -68,154 +68,154 @@
       ]
     }
   ],
-  "Skills": [
+  "skills": [
     {
-      "Area": "Client",
-      "SkillSet": [
+      "area": "Client",
+      "skillset": [
         {
-          "Name": "JavaScript (ES5, ES6)"
+          "name": "JavaScript (ES5, ES6)"
         },
         {
-          "Name": "React"
+          "name": "React"
         },
         {
-          "Name": "Handlebars"
+          "name": "Handlebars"
         },
         {
-          "Name": "jQuery"
+          "name": "jQuery"
         },
         {
-          "Name": "Bootstrap"
+          "name": "Bootstrap"
         },
         {
-          "Name": "Bulma"
+          "name": "Bulma"
         },
         {
-          "Name": "HTML / CSS"
+          "name": "HTML / CSS"
         }
       ]
     },
     {
-      "Area": "API Interaction",
-      "SkillSet": [
+      "area": "API Interaction",
+      "skillset": [
         {
-          "Name": "APIs"
+          "name": "APIs"
         },
         {
-          "Name": "JSON"
+          "name": "JSON"
         },
         {
-          "Name": "AJAX"
+          "name": "AJAX"
         }
       ]
     },
     {
-      "Area": "Databases",
-      "SkillSet": [
+      "area": "Databases",
+      "skillset": [
         {
-          "Name": "MongoDB"
+          "name": "MongoDB"
         },
         {
-          "Name": "MySQL"
+          "name": "MySQL"
         }
       ]
     },
     {
-      "Area": "Dev Tools",
-      "SkillSet": [
+      "area": "Dev Tools",
+      "skillset": [
         {
-          "Name": "Heroku"
+          "name": "Heroku"
         },
         {
-          "Name": "Netlify"
+          "name": "Netlify"
         },
         {
-          "Name": "Git"
+          "name": "Git"
         },
         {
-          "Name": "GitHub"
+          "name": "GitHub"
         }
       ]
     },
     {
-      "Area": "Databases",
-      "SkillSet": [
+      "area": "Databases",
+      "skillSet": [
         {
-          "Name": "MySQL"
+          "name": "MySQL"
         },
         {
-          "Name": "MongoDB"
+          "name": "MongoDB"
         }
       ]
     },
     {
-      "Area": "Server Side",
-      "SkillSet": [
+      "area": "Server Side",
+      "skillset": [
         {
-          "Name": "Sessions"
+          "name": "Sessions"
         },
         {
-          "Name": "Writing tests"
+          "name": "Writing tests"
         },
         {
-          "Name": "Node.js"
+          "name": "Node.js"
         },
         {
-          "Name": "Express.js"
+          "name": "Express.js"
         },
         {
-          "Name": "Creating APIs"
+          "name": "Creating APIs"
         },
         {
-          "Name": "MVC"
+          "name": "MVC"
         },
         {
-          "Name": "User Authentication"
+          "name": "User Authentication"
         },
         {
-          "Name": "ORM (Sequalize)"
+          "name": "ORM (Sequalize)"
         }
       ]
     }
   ],
-  "Projects": [
+  "projects": [
     {
-      "Name": "Project 1: Team Project API Basics",
-      "Description": "A simple team project designed to practice use of 3rd party APIs. Our team executed a project that rendered a stylized deployment of the NASA APOD API and also included a simple integration with Slack. When you check it out don't forget to scroll down!",
+      "name": "Project 1: Team Project API Basics",
+      "description": "A simple team project designed to practice use of 3rd party APIs. Our team executed a project that rendered a stylized deployment of the NASA APOD API and also included a simple integration with Slack. When you check it out don't forget to scroll down!",
       "ScreenShotURL": "./public/images/project1.png",
-      "ProjectLink": "https://jonesjsc.github.io/Project-1-API-Basics/",
-      "GithubLink": "https://github.com/jonesjsc/Project-1-API-Basics"
+      "projectLink": "https://jonesjsc.github.io/Project-1-API-Basics/",
+      "githubLink": "https://github.com/jonesjsc/Project-1-API-Basics"
     },
     {
-      "Name": "Exercise 6: Third Party APIs",
-      "Description": "Individual exercise leveraging Bulma that dives deeper into 3rd party APIs (OpenWeather).",
-      "ScreenShotURL": "./public/images/weather-api.png",
-      "ProjectLink": "https://jonesjsc.github.io/06-Third-Party-APIs-Weather/",
-      "GithubLink": "https://github.com/jonesjsc/06-Third-Party-APIs-Weather"
+      "name": "Exercise 6: Third Party APIs",
+      "description": "Individual exercise leveraging Bulma that dives deeper into 3rd party APIs (OpenWeather).",
+      "screenShotURL": "./public/images/weather-api.png",
+      "projectLink": "https://jonesjsc.github.io/06-Third-Party-APIs-Weather/",
+      "githubLink": "https://github.com/jonesjsc/06-Third-Party-APIs-Weather"
     },
     {
-      "Name": "Exercise 14: Full Stack MVC app",
-      "Description": "An individual assignment that demonstrates the complete MVC stack leverging Node.js, Sequelize, Handlebars formatted with Bootstrap and deployed to Heroku",
-      "ScreenShotURL": "./public/images/techblog.png",
-      "ProjectLink": "https://techblog-hw14.herokuapp.com/",
-      "GithubLink": "https://github.com/jonesjsc/14-MVC-Tech-Blog"
+      "name": "Exercise 14: Full Stack MVC app",
+      "description": "An individual assignment that demonstrates the complete MVC stack leverging Node.js, Sequelize, Handlebars formatted with Bootstrap and deployed to Heroku",
+      "screenShotURL": "./public/images/techblog.png",
+      "projectLink": "https://techblog-hw14.herokuapp.com/",
+      "githubLink": "https://github.com/jonesjsc/14-MVC-Tech-Blog"
     },
     {
-      "Name": "Project 2: Team Project Full Stack MVC app",
-      "Description": "Team Project exercising the complete MVC stack leverging Node.js, Sequelize, Handlebars and deployed to Heroku. The notable capability here is basic integration with email via sendgrid, and deployment to a custom domain.",
-      "ScreenShotURL": "./public/images/project2.png",
-      "ProjectLink": "https://www.viktoriiasvaxxpassport.com/",
-      "GithubLink": "https://github.com/Team-6-Project-2/vvp"
+      "name": "Project 2: Team Project Full Stack MVC app",
+      "description": "Team Project exercising the complete MVC stack leverging Node.js, Sequelize, Handlebars and deployed to Heroku. The notable capability here is basic integration with email via sendgrid, and deployment to a custom domain.",
+      "screenShotURL": "./public/images/project2.png",
+      "projectLink": "https://www.viktoriiasvaxxpassport.com/",
+      "githubLink": "https://github.com/Team-6-Project-2/vvp"
     }
   ],
-  "Education": [
+  "education": [
     {
-      "SchoolName": "University of North Carolina Charlotte",
-      "Degree": "BS Engineering"
+      "schoolName": "University of North Carolina Charlotte",
+      "degree": "BS Engineering"
     },
     {
-      "SchoolName": "University of North Carolina Charlotte",
-      "Degree": "Coding Bootcamp"
+      "schoolName": "University of North Carolina Charlotte",
+      "degree": "Coding Bootcamp"
     }
   ]
 }
