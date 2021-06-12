@@ -35,7 +35,7 @@ function App() {
           key={index}
           name={project.name}
           description={project.description}
-          ScreenShotURL={project.ScreenShotURL}
+          screenShotURL={project.screenShotURL}
           projectLink={project.projectLink}
           githubLink={project.githubLink}
         />

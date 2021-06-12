@@ -7,14 +7,21 @@ import SkillsCard from "./SkillsCard";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
+import { useState } from "react";
+//onclick accordian tolggle to change defaultactive key from zero or empty line 15
 function ExperiencesSection(props) {
+  const [activeKey, setActiveKey] = useState("0");
+
   return (
     <Row>
       <Col sm={8}>
-        <Accordion defaultActiveKey='0'>
+        <Accordion defaultActiveKey={activeKey}>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey='0'>
+            <Accordion.Toggle
+              as={Card.Header}
+              eventKey='0'
+              onClick={() => setActiveKey()}
+            >
               EXPERIENCE
             </Accordion.Toggle>
             <Accordion.Collapse eventKey='0'>
@@ -37,7 +44,7 @@ function ExperiencesSection(props) {
         </Accordion>
       </Col>
       <Col>
-        <Accordion defaultActiveKey='0'>
+        <Accordion defaultActiveKey={activeKey}>
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey='0'>
               SKILLS

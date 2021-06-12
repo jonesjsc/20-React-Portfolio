@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 
 function ProjectsCard(props) {
+  console.log("PROJECT PROPS", props);
   return (
     <div>
       <Card>
@@ -12,7 +13,10 @@ function ProjectsCard(props) {
         {props.propsLink}
         {props.githubLink}
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant='top' src={process.env.PUBLIC_URL} />
+          <Card.Img
+            variant='top'
+            src={`${process.env.PUBLIC_URL}${props.screenShotURL}`}
+          />
 
           <Card.Body>
             <Card.Title>{props.screenShotURL}</Card.Title>

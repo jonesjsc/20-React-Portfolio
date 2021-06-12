@@ -1,29 +1,27 @@
-import ExperiencesCard from "./ExperiencesCard";
-import experiences from "../data/experiences.json";
+import ProjectCard from "./ProjectCard";
+import projects from "../data/projects.json";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
-import skills from "../data/skills.json";
-import SkillsCard from "./SkillsCard";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-function ExperiencesSection(props) {
+function ProjectsSection(props) {
   return (
     <Row>
       <Col sm={8}>
         <Accordion defaultActiveKey='0'>
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey='0'>
-              EXPERIENCE
+              PROJECTS
             </Accordion.Toggle>
             <Accordion.Collapse eventKey='0'>
               <Card.Body>
-                {experiences.map((experience, index) => (
-                  <ExperiencesCard
+                {projects.map((project, index) => (
+                  <ProjectsCard
                     key={index}
-                    companyName={experience.companyName}
-                    companyUrl={experience.companyUrl}
+                    name={project.name}
+                    description={experience.companyUrl}
                     companyLocation={experience.companyLocation}
                     title={experience.title}
                     responsibilities={experience.responsibilities}
@@ -59,4 +57,4 @@ function ExperiencesSection(props) {
     </Row>
   );
 }
-export default ExperiencesSection;
+export default ProjectsSection;

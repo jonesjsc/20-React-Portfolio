@@ -2,7 +2,7 @@
   {
     "name": "Project 1: Team Project API Basics",
     "description": "A simple team project designed to practice use of 3rd party APIs. Our team executed a project that rendered a stylized deployment of the NASA APOD API and also included a simple integration with Slack. When you check it out don't forget to scroll down!",
-    "ScreenShotURL": "/images/project1.png",
+    "screenShotURL": "/images/project1.png",
     "projectLink": "https://jonesjsc.github.io/Project-1-API-Basics/",
     "githubLink": "https://github.com/jonesjsc/Project-1-API-Basics"
   },
