@@ -12,7 +12,7 @@ function ProjectsCard(props) {
         {props.propsLink}
         {props.githubLink}
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant='top' src='${process.env.PUBLIC_URL}' />
+          <Card.Img variant='top' src={process.env.PUBLIC_URL} />
 
           <Card.Body>
             <Card.Title>{props.screenShotURL}</Card.Title>
