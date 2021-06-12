@@ -1,35 +1,25 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Card from "react-bootstrap/Card";
 
 function ProjectsCard(props) {
   console.log("PROJECT PROPS", props);
   return (
-    <div>
-      <Card>
-        <Card.Header>{props.screenShotURL}</Card.Header>
-        {props.name}
-        {props.description}
-        {props.screenShotURL}
-        {props.propsLink}
-        {props.githubLink}
+    <Fragment>
         <Card style={{ width: "18rem" }}>
           <Card.Img
             variant='top'
             src={`${process.env.PUBLIC_URL}${props.screenShotURL}`}
           />
-
           <Card.Body>
-            <Card.Title>{props.screenShotURL}</Card.Title>
+            <Card.Title>{props.name}</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            {props.description}
             </Card.Text>
-            <Card.Link href='#'>Card Link</Card.Link>
-            <Card.Link href='#'>Another Link</Card.Link>
+            <Card.Link href={`${props.projectLink}`}>Deployed</Card.Link>
+            <Card.Link href={`${props.githubLink}`}>Repo</Card.Link>
           </Card.Body>
         </Card>
-      </Card>
-    </div>
+    </Fragment>
   );
 }
 

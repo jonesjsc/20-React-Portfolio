@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import profile from "./data/profile.json";
 import experiences from "./data/experiences.json";
 import ExperiencesSection from "./components/ExperiencesSection";
+import ProjectsSection from "./components/ProjectsSection";
 import projects from "./data/projects.json";
 import ProjectsCard from "./components/ProjectsCard";
 import education from "./data/education.json";
@@ -30,16 +31,7 @@ function App() {
       />
       <ExperiencesSection />
 
-      {projects.map((project, index) => (
-        <ProjectsCard
-          key={index}
-          name={project.name}
-          description={project.description}
-          screenShotURL={project.screenShotURL}
-          projectLink={project.projectLink}
-          githubLink={project.githubLink}
-        />
-      ))}
+<ProjectsSection />
 
       {education.map((school, index) => (
         <EducationCard
