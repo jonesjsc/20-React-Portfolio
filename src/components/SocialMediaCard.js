@@ -2,8 +2,7 @@ import React from "react";
 function SocialMediaCard(props) {
   return (
     <div>
-      {props.tag}
-      {props.url}
+      <a href={props.url}>{props.tag}</a>
     </div>
   );
 }

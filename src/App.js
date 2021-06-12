@@ -3,8 +3,6 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import profile from "./data/profile.json";
-import socialMedias from "./data/socialMedias.json";
-import SocialMediaCard from "./components/SocialMediaCard";
 import experiences from "./data/experiences.json";
 import ExperiencesCard from "./components/ExperiencesCard";
 import skills from "./data/skills.json";
@@ -13,24 +11,26 @@ import projects from "./data/projects.json";
 import ProjectsCard from "./components/ProjectsCard";
 import education from "./data/education.json";
 import EducationCard from "./components/EducationCard";
+import basicInfo from "./data/basicInfo.json";
+import BasicInfoCard from "./components/BasicInfoCard";
+import socialMedias from "./data/socialMedias.json";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      {profile.name}
-      {profile.position}
-      {profile.address}
-      {profile.phone}
-      {profile.email}
-      {socialMedias.map((socialMedia, index) => (
-        <SocialMediaCard
-          key={index}
-          tag={socialMedia.tag}
-          url={socialMedia.url}
-        />
-      ))}
-
+    <Container>
+      {/* <Navbar /> */}
+      <BasicInfoCard
+        name={basicInfo.name}
+        position={basicInfo.position}
+        address={basicInfo.address}
+        phone={basicInfo.phone}
+        email={basicInfo.email}
+        socialMedias={socialMedias}
+      />
+      <h6>EXPERIENCE</h6>
       {experiences.map((experience, index) => (
         <ExperiencesCard
           key={index}
@@ -63,7 +63,7 @@ function App() {
           degree={school.degree}
         />
       ))}
-    </div>
+    </Container>
   );
 }
 
