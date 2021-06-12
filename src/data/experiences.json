@@ -3,58 +3,101 @@
     "companyName": "Dell Technologies",
     "companyUrl": "https://www.delltechnologies.com/",
     "companyLocation": "Charlotte, NC",
-    "roles": [
+    "title": "Data Protection Channel Manager",
+    "responsibilities": [
       {
-        "title": "Data Protection Channel Manager",
-        "responsibilities": "Channel Partner Development, charged with Engagement, Enablement ad Demand Generation activities for partners in the Mid Atlantic and Southeast Regions.",
-        "startDate": "FEB 2018",
-        "endDate": "PRESENT"
+        "responsibility": "Channel Partner Development, charged with Engagement, Enablement ad Demand Generation activities for partners in the Mid Atlantic and Southeast Regions"
       },
       {
-        "title": "National Channel System Engineer",
-        "responsibilities": "Channel technical empowerment and community building thgouth customer facing and channel technical deal support.",
-        "startDate": "MAR 2016",
-        "endDate": "FEB 2018"
+        "responsibility": "Professional Speaking / In Person and Virtual"
+      },
+      {
+        "responsibility": "Solutions Advocate for Cyber Recovery and Cloud Data Protection"
       }
-    ]
+    ],
+    "startDate": "FEB 2018",
+    "endDate": "PRESENT"
+  },
+  {
+    "companyName": "Dell Technologies",
+    "companyUrl": "https://www.delltechnologies.com/",
+    "companyLocation": "Charlotte, NC",
+    "title": "National Channel System Engineer",
+    "responsibilities": [
+      {
+        "responsibility": "Channel technical empowerment and community building"
+      },
+      {
+        "responsibility": "Customer facing and Channel technical deal support"
+      },
+      {
+        "responsibility": "Channel solutions & cross selling to help DELL EMC sell the Big Picture to partners"
+      }
+    ],
+    "startDate": "MAR 2016",
+    "endDate": "FEB 2018"
   },
   {
     "companyName": "Datagravity",
-    "url": "https://en.wikipedia.org/wiki/DataGravity",
+    "companyUrl": "https://en.wikipedia.org/wiki/DataGravity",
     "companyLocation": "Charlotte, NC",
-    "roles": [
+    "title": "Solutions Architect",
+    "responsibilities": [
       {
-        "title": "Solutions Architect",
-        "responsibilities": "Partner recruitment and training, evangelize security enabled solutions on C-Level sales calls.",
-        "startDate": "MAR 2015",
-        "endDate": "FEB 2016"
+        "responsibility": "Partner recruitment and training"
+      },
+      {
+        "responsibility": "Evangelize security enabled primary storage systems"
+      },
+      {
+        "responsibility": "Perform design and deployment tasks to include data migration services"
       }
-    ]
+    ],
+    "startDate": "MAR 2015",
+    "endDate": "FEB 2016"
   },
   {
     "companyName": "EMC",
-    "url": "https://en.wikipedia.org/wiki/Dell_EMC",
+    "companyUrl": "https://en.wikipedia.org/wiki/Dell_EMC",
     "companyLocation": "Charlotte, NC",
-    "roles": [
+    "title": "Advisory Technical Consuiltant",
+    "responsibilities": [
       {
-        "title": "Advisory Technical Consuiltant",
-        "responsibilities": "Data Protection presales specialist executing partner enablement as able.",
-        "startDate": "MAY 2010",
-        "endDate": "FEB 2015"
+        "responsibility": "Data Protection Specialist"
+      },
+      {
+        "responsibility": "Channel Partner enablement and deal support"
+      },
+      {
+        "responsibility": "Exceeded goal every year"
       }
-    ]
+    ],
+    "startDate": "MAY 2010",
+    "endDate": "FEB 2015"
   },
   {
     "companyName": "Various Resellers",
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "companyUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "companyLocation": "Charlotte, NC",
-    "roles": [
+    "title": "Solutions Architect +",
+    "responsibilities": [
       {
-        "title": "Solutions Architect +",
-        "responsibilities": "Datacenter Solutions Design / Architecture / Deployment / Project Management - National Sales Overlay for NTAP - Professional Speaking.",
-        "startDate": "JAN 1993",
-        "endDate": "MAY 2009"
+        "responsibility": "Solutions Design and Architecture / Storyboard Selling"
+      },
+      {
+        "responsibility": "Project Management"
+      },
+      {
+        "responsibility": "National sales overlay for NTAP solutions"
+      },
+      {
+        "responsibility": "Professional Speaking"
+      },
+      {
+        "responsibility": "Solutions Deployment"
       }
-    ]
+    ],
+    "startDate": "JAN 1993",
+    "endDate": "MAY 2009"
   }
 ]

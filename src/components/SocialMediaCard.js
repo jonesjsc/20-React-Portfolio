@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 function SocialMediaCard(props) {
   return (
-    <div>
+    <Fragment>
       <a href={props.url}>{props.tag}</a>
-    </div>
+      <span> </span>
+    </Fragment>
   );
 }
 

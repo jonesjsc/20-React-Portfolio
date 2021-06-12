@@ -16,7 +16,7 @@ function BasicInfoCard(props) {
           <h6>{props.position}</h6>
         </Col>
         <Col sm={4}>
-          <ul class='list-unstyled'>
+          <ul className='list-unstyled'>
             <li>
               <small>{props.address}</small>
             </li>

@@ -4,7 +4,9 @@ function SkillsCard(props) {
     <div>
       {props.area}
       {props.skillSet.map((skill, index) => (
-        <li key={skill.name + index}>{skill.name}</li>
+        <li key={skill.name + index} className='pl-1 mt-1'>
+          <small>{skill.name}</small>
+        </li>
       ))}
     </div>
   );

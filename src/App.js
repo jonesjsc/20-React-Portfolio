@@ -4,9 +4,7 @@ import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import profile from "./data/profile.json";
 import experiences from "./data/experiences.json";
-import ExperiencesCard from "./components/ExperiencesCard";
-import skills from "./data/skills.json";
-import SkillsCard from "./components/SkillsCard";
+import ExperiencesSection from "./components/ExperiencesSection";
 import projects from "./data/projects.json";
 import ProjectsCard from "./components/ProjectsCard";
 import education from "./data/education.json";
@@ -30,27 +28,14 @@ function App() {
         email={basicInfo.email}
         socialMedias={socialMedias}
       />
-      <h6>EXPERIENCE</h6>
-      {experiences.map((experience, index) => (
-        <ExperiencesCard
-          key={index}
-          companyName={experience.companyName}
-          companyUrl={experience.companyUrl}
-          companyLocation={experience.companyLocation}
-          roles={experience.roles}
-        />
-      ))}
-
-      {skills.map((skill, index) => (
-        <SkillsCard key={index} area={skill.area} skillSet={skill.skillSet} />
-      ))}
+      <ExperiencesSection />
 
       {projects.map((project, index) => (
         <ProjectsCard
           key={index}
           name={project.name}
           description={project.description}
-          ScrenShotURL={project.ScrenShotURL}
+          ScreenShotURL={project.ScreenShotURL}
           projectLink={project.projectLink}
           githubLink={project.githubLink}
         />
