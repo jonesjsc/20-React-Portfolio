@@ -2,36 +2,18 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import profile from "./data/profile.json";
-import experiences from "./data/experiences.json";
-import ExperiencesSection from "./components/ExperiencesSection";
-import ProjectsSection from "./components/ProjectsSection";
-import projects from "./data/projects.json";
-import ProjectsCard from "./components/ProjectsCard";
-import education from "./data/education.json";
 
-import EducationCard from "./components/EducationCard";
-import EducationSection from "./components/EducationSection";
-
-import basicInfo from "./data/basicInfo.json";
-import BasicInfoCard from "./components/BasicInfoCard";
-import socialMedias from "./data/socialMedias.json";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import BasicSection from "./components/BasicSection";
+import ExperiencesSection from "./components/ExperiencesSection";
+import EducationSection from "./components/EducationSection";
+import ProjectsSection from "./components/ProjectsSection";
 
 function App() {
   return (
     <Container>
-      {/* <Navbar /> */}
-      <BasicInfoCard
-        name={basicInfo.name}
-        position={basicInfo.position}
-        address={basicInfo.address}
-        phone={basicInfo.phone}
-        email={basicInfo.email}
-        socialMedias={socialMedias}
-      />
+      <Navbar />
+      <BasicSection />
       <ExperiencesSection />
       <EducationSection />
       <ProjectsSection />

@@ -1,10 +1,14 @@
 import React from "react";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 function EducationCard(props) {
   return (
-    <div>
-      {props.schoolName}
-      {props.degree}
-    </div>
+    <Row>
+      <Col>
+        <strong>{props.schoolName}</strong> - {props.degree}
+      </Col>
+    </Row>
   );
 }
 

@@ -10,7 +10,7 @@ function ProjectsSection(props) {
   return (
     <Row>
       <Col sm={12}>
-        <Accordion defaultActiveKey='0'>
+        <Accordion defaultActiveKey='1'>
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey='0'>
               PROJECTS
