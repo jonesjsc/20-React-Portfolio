@@ -9,7 +9,10 @@ import ProjectsSection from "./components/ProjectsSection";
 import projects from "./data/projects.json";
 import ProjectsCard from "./components/ProjectsCard";
 import education from "./data/education.json";
+
 import EducationCard from "./components/EducationCard";
+import EducationSection from "./components/EducationSection";
+
 import basicInfo from "./data/basicInfo.json";
 import BasicInfoCard from "./components/BasicInfoCard";
 import socialMedias from "./data/socialMedias.json";
@@ -30,16 +33,8 @@ function App() {
         socialMedias={socialMedias}
       />
       <ExperiencesSection />
-
-<ProjectsSection />
-
-      {education.map((school, index) => (
-        <EducationCard
-          key={index}
-          schoolName={school.schoolName}
-          degree={school.degree}
-        />
-      ))}
+      <EducationSection />
+      <ProjectsSection />
     </Container>
   );
 }
