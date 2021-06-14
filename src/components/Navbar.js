@@ -5,9 +5,6 @@ const Navbar = () => {
     <div>
       <nav className='navbar navbar-expand-lg navbar-light bg-light ms-auto'>
         <div className='container-fluid'>
-          <a className='navbar-brand' href='#'>
-            Jason Jones
-          </a>
           <button
             className='navbar-toggler'
             type='button'
@@ -22,13 +19,17 @@ const Navbar = () => {
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
               <li className='nav-item'>
-                <a className='nav-link active' aria-current='page' href='#'>
-                  Home
+                <a
+                  className='nav-link active'
+                  aria-current='page'
+                  href='./Experiences'
+                >
+                  Experiences
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>
-                  Link
+                <a className='nav-link' href='./Projects'>
+                  Projects
                 </a>
               </li>
             </ul>
