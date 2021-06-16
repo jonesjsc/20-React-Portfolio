@@ -6,18 +6,16 @@ import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Container from "react-bootstrap/Container";
-import BasicSection from "./components/BasicSection";
-import ExperiencesSection from "./components/ExperiencesSection";
-import ProjectsSection from "./components/ProjectsSection";
+import MainPage from "./pages/MainPage";
+import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
   return (
     <Router>
       <Container>
         <Navbar />
-        <Route path='/' component={BasicSection} />
-        <Route exact path='/Experiences' component={ExperiencesSection} />
-        <Route exact path='/Projects' component={ProjectsSection} />
+        <Route exact path='/' component={MainPage} />
+        <Route exact path='/Projects' component={ProjectsPage} />
       </Container>
     </Router>
   );
