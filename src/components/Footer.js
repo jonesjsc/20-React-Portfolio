@@ -28,7 +28,7 @@ function Footer() {
             </a>
           </li>
           <li className='list-group-item border-0'>
-            <a href='./assets/Jason Jones May 2021.pdf'>
+            <a href='/images/JasonJonesMay2021.pdf' download>
               <FontAwesomeIcon icon={faFilePdf} />
             </a>
           </li>

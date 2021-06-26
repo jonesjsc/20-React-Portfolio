@@ -26,5 +26,19 @@
     "screenShotURL": "/images/project2.png",
     "projectLink": "https://www.viktoriiasvaxxpassport.com/",
     "githubLink": "https://github.com/Team-6-Project-2/vvp"
+  },
+  {
+    "name": "Exercise 19: React Employee Directory",
+    "description": "A react exercise that leverages the Random User API to render a table of employees that can be filtered and sorted.",
+    "screenShotURL": "/images/employee-directory.png",
+    "projectLink": "https://eager-cray-b352da.netlify.app/",
+    "githubLink": "https://github.com/jonesjsc/19-React-Employee-Directory"
+  },
+  {
+    "name": "Exercise 11: Express.js: Note Taker",
+    "description": "An Express.js back end exercise (front end code was provided) that connects provided front end code to Express.js back end.",
+    "screenShotURL": "/images/note-taker.png",
+    "projectLink": "https://jej-nodejs-note-taker.herokuapp.com/",
+    "githubLink": "https://github.com/jonesjsc/11-Node.js-Note-Taker"
   }
 ]
